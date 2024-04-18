@@ -1,0 +1,116 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+			"wall": "galacticraftcore:blocks/deco_block_side",
+			"wall_bot": "galacticraftcore:blocks/tin_wall_bot",
+			"wall_top": "galacticraftcore:blocks/tin_wall_top",
+			"wall_end": "galacticraftcore:blocks/tin_wall_end"
+		},
+		"model": "galacticraftcore:wall_post",
+		"uvlock": true
+	},
+	"variants": {
+	    "inventory": [{ }],
+		"north": {
+			"true": {
+				"submodel": {
+					"north": { "model": "galacticraftcore:wall_side" }
+				}
+			},
+			"false": {
+
+			}
+		},
+		"east": {
+			"true": {
+				"submodel": {
+					"east": { "model": "galacticraftcore:wall_side", "y": 90, "uvlock": true }
+				}
+			},
+			"false": {
+
+			}
+		},
+		"south": {
+			"true": {
+				"submodel": {
+					"south": { "model": "galacticraftcore:wall_side", "y": 180, "uvlock": true }
+				}
+			},
+			"false": {
+
+			}
+		},
+		"west": {
+			"true": {
+				"submodel": {
+					"west": { "model": "galacticraftcore:wall_side", "y": 270, "uvlock": true }
+				}
+			},
+			"false": {
+
+			}
+		},
+		"up": {
+			"true": {
+				"submodel": {
+					"up": { "model": "galacticraftcore:wall_post" }
+				}
+			},
+			"false": {
+
+			}
+		},
+		"variant": {
+			"tin_1_wall": {
+				"textures": {
+					"wall": "galacticraftcore:blocks/deco_block_side",
+					"wall_bot": "galacticraftcore:blocks/tin_wall_bot",
+					"wall_top": "galacticraftcore:blocks/tin_wall_top",
+					"wall_end": "galacticraftcore:blocks/deco_block_side"
+				}
+			},
+			"tin_2_wall": {
+				"textures": {
+					"wall": "galacticraftcore:blocks/tin_wall_side",
+					"wall_bot": "galacticraftcore:blocks/tin_wall_bot",
+					"wall_top": "galacticraftcore:blocks/tin_wall_top",
+					"wall_end": "galacticraftcore:blocks/tin_wall_end"
+				}
+			},
+			"moon_stone_wall": {
+				"textures": {
+					"wall": "galacticraftcore:blocks/bottom",
+					"wall_bot": "galacticraftcore:blocks/bottom",
+					"wall_top": "galacticraftcore:blocks/bottom",
+					"wall_top": "galacticraftcore:blocks/tin_wall_top"
+				}
+			},
+			"moon_dungeon_brick_wall": {
+				"textures": {
+					"wall": "galacticraftcore:blocks/brick",
+					"wall_bot": "galacticraftcore:blocks/brick",
+					"wall_top": "galacticraftcore:blocks/brick",
+					"wall_end": "galacticraftcore:blocks/brick"
+				}
+			},
+			"mars_cobblestone_wall": {
+				"textures": {
+					"wall": "galacticraftplanets:blocks/cobblestone",
+					"wall_bot": "galacticraftplanets:blocks/cobblestone",
+					"wall_top": "galacticraftplanets:blocks/cobblestone",
+					"wall_end": "galacticraftplanets:blocks/cobblestone"
+				}
+			},
+			"mars_dungeon_brick_wall": {
+				"textures": {
+					"wall": "galacticraftplanets:blocks/brick",
+					"wall_bot": "galacticraftplanets:blocks/brick",
+					"wall_top": "galacticraftplanets:blocks/brick",
+					"wall_end": "galacticraftplanets:blocks/brick"
+				}
+			}
+		}
+	}
+}

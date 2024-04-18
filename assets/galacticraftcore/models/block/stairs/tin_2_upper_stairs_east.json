@@ -1,0 +1,12 @@
+{
+    "parent": "galacticraftcore:block/stairs/stairs",
+    "textures": {
+        "particle": "galacticraftcore:blocks/deco_block",
+        "bottom": "galacticraftcore:blocks/deco_block",
+        "top": "galacticraftcore:blocks/stairs/tin_stairs_top_east",
+        "north": "galacticraftcore:blocks/stairs/bottom_left_inner",
+        "south": "galacticraftcore:blocks/stairs/bottom_right_inner",
+        "east": "galacticraftcore:blocks/deco_block",
+        "west": "galacticraftcore:blocks/stairs/tin_stairs_top_north"
+    }
+}

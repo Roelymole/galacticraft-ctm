@@ -1,0 +1,194 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "all": "galacticraftcore:blocks/enclosed_te_conduit",
+        "particle": "galacticraftcore:blocks/enclosed_te_conduit"
+    },
+    "elements": [
+        {
+            "from": [ 0, 0, 0 ],
+            "to": [ 8, 8, 8 ],
+            "faces": {
+                "down": { "uv": [ 0, 8, 8, 16 ], "texture": "#all", "cullface": "down", "tintindex": 0 },
+                "north": { "uv": [ 8, 8, 16, 16 ], "texture": "#all", "cullface": "north", "tintindex": 2 },
+                "west": { "uv": [ 0, 8, 8, 16 ], "texture": "#all", "cullface": "west", "tintindex": 2 }
+            }
+        },
+        {
+            "from": [ 0, 0, 8 ],
+            "to": [ 8, 8, 16 ],
+            "faces": {
+                "down": { "uv": [ 0, 0, 8, 8 ], "texture": "#all", "cullface": "down", "tintindex": 0 },
+                "south": { "uv": [ 0, 8, 8, 16 ], "texture": "#all", "cullface": "south", "tintindex": 2 },
+                "west": { "uv": [ 8, 8, 16, 16 ], "texture": "#all", "cullface": "west", "tintindex": 2 }
+            }
+        },
+        {
+            "from": [ 8, 0, 0 ],
+            "to": [ 16, 8, 8 ],
+            "faces": {
+                "down": { "uv": [ 8, 8, 16, 16 ], "texture": "#all", "cullface": "down", "tintindex": 0 },
+                "north": { "uv": [ 0, 8, 8, 16 ], "texture": "#all", "cullface": "north", "tintindex": 2 },
+                "east": { "uv": [ 8, 8, 16, 16 ], "texture": "#all", "cullface": "east", "tintindex": 2 }
+            }
+        },
+        {
+            "from": [ 8, 0, 8 ],
+            "to": [ 16, 8, 16 ],
+            "faces": {
+                "down": { "uv": [ 8, 0, 16, 8 ], "texture": "#all", "cullface": "down", "tintindex": 0 },
+                "south": { "uv": [ 8, 8, 16, 16 ], "texture": "#all", "cullface": "south", "tintindex": 2 },
+                "east": { "uv": [ 0, 8, 8, 16 ], "texture": "#all", "cullface": "east", "tintindex": 2 }
+            }
+        },
+        {
+            "from": [ 0, 8, 0 ],
+            "to": [ 8, 16, 8 ],
+            "faces": {
+                "up": { "uv": [ 0, 0, 8, 8 ], "texture": "#all", "cullface": "up", "tintindex": 1 },
+                "north": { "uv": [ 8, 0, 16, 8 ], "texture": "#all", "cullface": "north", "tintindex": 3 },
+                "west": { "uv": [ 0, 0, 8, 8 ], "texture": "#all", "cullface": "west", "tintindex": 3 }
+            }
+        },
+        {
+            "from": [ 0, 8, 8 ],
+            "to": [ 8, 16, 16 ],
+            "faces": {
+                "up": { "uv": [ 0, 8, 8, 16 ], "texture": "#all", "cullface": "up", "tintindex": 1 },
+                "south": { "uv": [ 0, 0, 8, 8 ], "texture": "#all", "cullface": "south", "tintindex": 3 },
+                "west": { "uv": [ 8, 0, 16, 8 ], "texture": "#all", "cullface": "west", "tintindex": 3 }
+            }
+        },
+        {
+            "from": [ 8, 8, 0 ],
+            "to": [ 16, 16, 8 ],
+            "faces": {
+                "up": { "uv": [ 8, 0, 16, 8 ], "texture": "#all", "cullface": "up", "tintindex": 1 },
+                "north": { "uv": [ 0, 0, 8, 8 ], "texture": "#all", "cullface": "north", "tintindex": 3 },
+                "east": { "uv": [ 8, 0, 16, 8 ], "texture": "#all", "cullface": "east", "tintindex": 3 }
+            }
+        },
+        {
+            "from": [ 8, 8, 8 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "up": { "uv": [ 8, 8, 16, 16 ], "texture": "#all", "cullface": "up", "tintindex": 1 },
+                "south": { "uv": [ 8, 0, 16, 8 ], "texture": "#all", "cullface": "south", "tintindex": 3 },
+                "east": { "uv": [ 0, 0, 8, 8 ], "texture": "#all", "cullface": "east", "tintindex": 3 }
+            }
+        }
+    ],
+    "ctm_version": 1,
+    "ctm_overrides": {
+        "0": {
+            "type": "ctm",
+            "textures": [
+                "galacticraftcore:blocks/enclosed_te_conduit_ctm"
+            ],
+            "extra": {
+                "ignore_states": true,
+                "connect_inside": true,
+                "connect_to": [
+                    {"block": "galacticraftcore:basic_block_core",
+                     "predicate": [{"basictype": "deco_block_0"}]},
+                    {"block": "galacticraftcore:basic_block_core",
+                     "predicate": [{"basictype": "deco_block_1"}]},
+                    {"block": "galacticraftcore:concealed_redstone"},
+                    {"block": "galacticraftcore:concealed_repeater"},
+                    {"block": "galacticraftcore:concealed_repeater_pow"},
+                    {"block": "galacticraftcore:concealed_detector"},
+                    {"block": "galacticraftcore:enclosed"},
+                    {"block": "galacticraftcore:tin_stairs_1"},
+                    {"block": "galacticraftcore:tin_stairs_2"},
+                    {"block": "galacticraftcore:slab_gc_half",
+                     "predicate": [{"variant": "tin_slab_1"}, {"half": "bottom"}]},
+                    {"block": "galacticraftcore:slab_gc_half",
+                     "predicate": [{"variant": "tin_slab_2"}, {"half": "bottom"}]},
+                    {"block": "galacticraftcore:slab_gc_double",
+                     "predicate": [{"variant": "tin_slab_1"}]},
+                    {"block": "galacticraftcore:slab_gc_double",
+                     "predicate": [{"variant": "tin_slab_2"}]}
+                ]
+            }
+        },
+        "1": {
+            "type": "ctm",
+            "textures": [
+                "galacticraftcore:blocks/enclosed_te_conduit_ctm"
+            ],
+            "extra": {
+                "ignore_states": true,
+                "connect_inside": true,
+                "connect_to": [
+                    {"block": "galacticraftcore:basic_block_core",
+                     "predicate": [{"basictype": "deco_block_0"}]},
+                    {"block": "galacticraftcore:basic_block_core",
+                     "predicate": [{"basictype": "deco_block_1"}]},
+                    {"block": "galacticraftcore:concealed_redstone"},
+                    {"block": "galacticraftcore:concealed_repeater"},
+                    {"block": "galacticraftcore:concealed_repeater_pow"},
+                    {"block": "galacticraftcore:concealed_detector"},
+                    {"block": "galacticraftcore:enclosed"},
+                    {"block": "galacticraftcore:tin_stairs_1"},
+                    {"block": "galacticraftcore:tin_stairs_2"},
+                    {"block": "galacticraftcore:slab_gc_half",
+                     "predicate": [{"variant": "tin_slab_1"}, {"half": "top"}]},
+                    {"block": "galacticraftcore:slab_gc_half",
+                     "predicate": [{"variant": "tin_slab_2"}, {"half": "top"}]},
+                    {"block": "galacticraftcore:slab_gc_double",
+                     "predicate": [{"variant": "tin_slab_1"}]},
+                    {"block": "galacticraftcore:slab_gc_double",
+                     "predicate": [{"variant": "tin_slab_2"}]}
+                ]
+            }
+        },
+        "2": {
+            "type": "ctm",
+            "textures": [
+                "galacticraftcore:blocks/enclosed_te_conduit_ctm"
+            ],
+            "extra": {
+                "ignore_states": true,
+                "connect_inside": true,
+                "connect_to": [
+                    {"block": "galacticraftcore:basic_block_core",
+                     "predicate": [{"basictype": "deco_block_1"}]},
+                    {"block": "galacticraftcore:concealed_redstone"},
+                    {"block": "galacticraftcore:concealed_repeater"},
+                    {"block": "galacticraftcore:concealed_repeater_pow"},
+                    {"block": "galacticraftcore:concealed_detector"},
+                    {"block": "galacticraftcore:enclosed"},
+                    {"block": "galacticraftcore:tin_stairs_2"},
+                    {"block": "galacticraftcore:slab_gc_half",
+                     "predicate": [{"variant": "tin_slab_2"}, {"half": "bottom"}]},
+                    {"block": "galacticraftcore:slab_gc_double",
+                     "predicate": [{"variant": "tin_slab_2"}]}
+                ]
+            }
+        },
+        "3": {
+            "type": "ctm",
+            "textures": [
+                "galacticraftcore:blocks/enclosed_te_conduit_ctm"
+            ],
+            "extra": {
+                "ignore_states": true,
+                "connect_inside": true,
+                "connect_to": [
+                    {"block": "galacticraftcore:basic_block_core",
+                     "predicate": [{"basictype": "deco_block_1"}]},
+                    {"block": "galacticraftcore:concealed_redstone"},
+                    {"block": "galacticraftcore:concealed_repeater"},
+                    {"block": "galacticraftcore:concealed_repeater_pow"},
+                    {"block": "galacticraftcore:concealed_detector"},
+                    {"block": "galacticraftcore:enclosed"},
+                    {"block": "galacticraftcore:tin_stairs_2"},
+                    {"block": "galacticraftcore:slab_gc_half",
+                     "predicate": [{"variant": "tin_slab_2"}, {"half": "top"}]},
+                    {"block": "galacticraftcore:slab_gc_double",
+                     "predicate": [{"variant": "tin_slab_2"}]}
+                ]
+            }
+        }
+    }
+}
