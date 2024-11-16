@@ -1,0 +1,9 @@
+{
+    "ctm": {
+        "ctm_version": 1,
+        "type": "ctm",
+        "textures": [
+            "galaxyspace:blocks/overworld/blocks_metals/nickel_block_ctm"
+        ]
+    }
+}

@@ -74,7 +74,8 @@
                     {"block": "galacticraftcore:slab_gc_double",
                      "predicate": [{"variant": "tin_slab_1"}]},
                     {"block": "galacticraftcore:slab_gc_double",
-                     "predicate": [{"variant": "tin_slab_2"}]}
+                     "predicate": [{"variant": "tin_slab_2"}]},
+                    {"block": "moreplanets:sealable_nuclear_waste_rod"}
                 ]
             }
         },
@@ -105,7 +106,8 @@
                     {"block": "galacticraftcore:slab_gc_double",
                      "predicate": [{"variant": "tin_slab_1"}]},
                     {"block": "galacticraftcore:slab_gc_double",
-                     "predicate": [{"variant": "tin_slab_2"}]}
+                     "predicate": [{"variant": "tin_slab_2"}]},
+                    {"block": "moreplanets:sealable_nuclear_waste_rod"}
                 ]
             }
         }

@@ -1,0 +1,59 @@
+{ 
+	"parent": "block/cube_all", 
+ 	"textures": { 
+		"down": "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_0",
+        "up": "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_0",
+        "north": "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_0",
+        "south": "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_0",
+        "west": "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_0",
+        "east": "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_0",
+        "particle": "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_0"
+	},
+    "elements": [
+        {
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#down",  "cullface": "down",  "tintindex": 0 },
+                "up":    { "texture": "#up",    "cullface": "up",    "tintindex": 0 },
+                "north": { "texture": "#north", "cullface": "north", "tintindex": 1 },
+                "south": { "texture": "#south", "cullface": "south", "tintindex": 1 },
+                "west":  { "texture": "#east",  "cullface": "west",  "tintindex": 1 },
+                "east":  { "texture": "#west",  "cullface": "east",  "tintindex": 1 }
+            }
+        }
+    ],
+    "ctm_version": 1,
+    "ctm_overrides": {
+        "0": {
+            "type": "ctm",
+            "textures": [
+                "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_0_ctm"
+            ],
+            "extra": {
+                "ignore_states": true,
+                "connect_inside": true,
+                "connect_to": [
+                    {"block": "galaxyspace:decoblocks",
+                     "predicate": [{"type": "deco_cobaltum_1"}]},
+                    {"block": "galaxyspace:decoblocks",
+                     "predicate": [{"type": "deco_cobaltum_2"}]}
+                ]
+            }
+        },
+        "1": {
+            "type": "ctm",
+            "textures": [
+                "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_0_ctm"
+            ],
+            "extra": {
+                "ignore_states": true,
+                "connect_inside": true,
+                "connect_to": [
+                    {"block": "galaxyspace:decoblocks",
+                     "predicate": [{"type": "deco_cobaltum_2"}]}
+                ]
+            }
+        }
+    }
+}

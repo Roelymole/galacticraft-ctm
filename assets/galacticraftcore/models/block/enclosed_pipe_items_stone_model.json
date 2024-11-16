@@ -107,7 +107,8 @@
                     {"block": "galacticraftcore:slab_gc_double",
                      "predicate": [{"variant": "tin_slab_1"}]},
                     {"block": "galacticraftcore:slab_gc_double",
-                     "predicate": [{"variant": "tin_slab_2"}]}
+                     "predicate": [{"variant": "tin_slab_2"}]},
+                    {"block": "morespace:sealable_nuclear_waste_rod"}
                 ]
             }
         },
@@ -138,7 +139,8 @@
                     {"block": "galacticraftcore:slab_gc_double",
                      "predicate": [{"variant": "tin_slab_1"}]},
                     {"block": "galacticraftcore:slab_gc_double",
-                     "predicate": [{"variant": "tin_slab_2"}]}
+                     "predicate": [{"variant": "tin_slab_2"}]},
+                    {"block": "morespace:sealable_nuclear_waste_rod"}
                 ]
             }
         },
@@ -160,9 +162,10 @@
                     {"block": "galacticraftcore:enclosed"},
                     {"block": "galacticraftcore:tin_stairs_2"},
                     {"block": "galacticraftcore:slab_gc_half",
-                     "predicate": [{"variant": "tin_slab_2"}, {"half": "bottom"}]},
+                     "predicate": [{"variant": "tin_slab_2"}]},
                     {"block": "galacticraftcore:slab_gc_double",
-                     "predicate": [{"variant": "tin_slab_2"}]}
+                     "predicate": [{"variant": "tin_slab_2"}]},
+                    {"block": "morespace:sealable_nuclear_waste_rod"}
                 ]
             }
         },
@@ -184,9 +187,10 @@
                     {"block": "galacticraftcore:enclosed"},
                     {"block": "galacticraftcore:tin_stairs_2"},
                     {"block": "galacticraftcore:slab_gc_half",
-                     "predicate": [{"variant": "tin_slab_2"}, {"half": "top"}]},
+                     "predicate": [{"variant": "tin_slab_2"}]},
                     {"block": "galacticraftcore:slab_gc_double",
-                     "predicate": [{"variant": "tin_slab_2"}]}
+                     "predicate": [{"variant": "tin_slab_2"}]},
+                    {"block": "morespace:sealable_nuclear_waste_rod"}
                 ]
             }
         }

@@ -1,0 +1,45 @@
+{ 
+	"parent": "block/cube_all", 
+ 	"textures": { 
+		"down": "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_0",
+        "up": "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_0",
+        "north": "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_1",
+        "south": "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_1",
+        "west": "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_1",
+        "east": "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_1",
+        "particle": "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_1"
+    },
+    "elements": [
+        {
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#down",  "cullface": "down", "tintindex": 0 },
+                "up":    { "texture": "#up",    "cullface": "up",   "tintindex": 0 },
+                "north": { "texture": "#north", "cullface": "north" },
+                "south": { "texture": "#south", "cullface": "south" },
+                "west":  { "texture": "#east",  "cullface": "west" },
+                "east":  { "texture": "#west",  "cullface": "east" }
+            }
+        }
+    ],
+    "ctm_version": 1,
+    "ctm_overrides": {
+        "0": {
+            "type": "ctm",
+            "textures": [
+                "galaxyspace:blocks/overworld/blocks_decometals/deco_cobaltum_0_ctm"
+            ],
+            "extra": {
+                "ignore_states": true,
+                "connect_inside": true,
+                "connect_to": [
+                    {"block": "galaxyspace:decoblocks",
+                     "predicate": [{"type": "deco_cobaltum_1"}]},
+                    {"block": "galaxyspace:decoblocks",
+                     "predicate": [{"type": "deco_cobaltum_2"}]}
+                ]
+            }
+        }
+    }
+}

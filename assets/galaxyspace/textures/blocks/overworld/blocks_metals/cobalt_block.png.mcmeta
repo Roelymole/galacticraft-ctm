@@ -1,0 +1,9 @@
+{
+    "ctm": {
+        "ctm_version": 1,
+        "type": "ctm",
+        "textures": [
+            "galaxyspace:blocks/overworld/blocks_metals/cobalt_block_ctm"
+        ]
+    }
+}
