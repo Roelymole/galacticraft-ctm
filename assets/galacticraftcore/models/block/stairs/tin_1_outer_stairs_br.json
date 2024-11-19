@@ -2,7 +2,7 @@
     "parent": "galacticraftcore:block/stairs/outer_stairs",
     "textures": {
         "particle": "galacticraftcore:blocks/deco_block_side",
-        "bottom": "galacticraftcore:blocks/deco_block",
+        "bottom": "galacticraftcore:blocks/deco_block_up",
         "top": "galacticraftcore:blocks/stairs/bottom_right",
         "north": "galacticraftcore:blocks/deco_block_side",
         "south": "galacticraftcore:blocks/deco_block_side",
