@@ -10,8 +10,6 @@
             "connect_inside": true,
             "connect_to": [
                 {"block": "galacticraftcore:wall_gc",
-                 "predicate": [{"variant": "tin_1_wall"}]},
-                {"block": "galacticraftcore:wall_gc",
                  "predicate": [{"variant": "tin_2_wall"}]},
                 {"block": "galacticraftcore:basic_block_core",
                  "predicate": [{"basictype": "deco_block_0"}]},

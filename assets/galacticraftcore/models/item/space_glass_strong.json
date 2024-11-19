@@ -2,7 +2,7 @@
     "parent": "galacticraftcore:block/glass/spaceglass_ns_inventory",
     "textures": {
            "0": "galacticraftcore:blocks/space_glass_inventory",
-           "1": "galacticraftcore:blocks/space_glass_frame_tindeco"
+           "1": "galacticraftcore:blocks/space_glass_frame_white"
     },
     "display": {
         "thirdperson": {

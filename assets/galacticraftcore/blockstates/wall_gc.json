@@ -66,8 +66,8 @@
 			"tin_1_wall": {
 				"textures": {
 					"wall": "galacticraftcore:blocks/deco_block_side",
-					"wall_bot": "galacticraftcore:blocks/tin_wall_bot",
-					"wall_top": "galacticraftcore:blocks/tin_wall_top",
+					"wall_bot": "galacticraftcore:blocks/deco_wall_bot",
+					"wall_top": "galacticraftcore:blocks/deco_wall_top",
 					"wall_end": "galacticraftcore:blocks/deco_block_side"
 				}
 			},
@@ -84,7 +84,7 @@
 					"wall": "galacticraftcore:blocks/bottom",
 					"wall_bot": "galacticraftcore:blocks/bottom",
 					"wall_top": "galacticraftcore:blocks/bottom",
-					"wall_top": "galacticraftcore:blocks/tin_wall_top"
+					"wall_end": "galacticraftcore:blocks/bottom"
 				}
 			},
 			"moon_dungeon_brick_wall": {

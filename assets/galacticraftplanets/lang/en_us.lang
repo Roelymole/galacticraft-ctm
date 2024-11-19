@@ -1,0 +1,12 @@
+tile.venus.lead_block.name=Block of Lead
+tile.mars.marsdeco.name=Block of Desh
+tile.asteroids_block.titanium_block.name=Block of Titanium
+
+item.thermal_boots.name=Thermal Socks
+item.thermal_boots_t2.name=Isothermal Socks
+item.thermal_chestplate.name=Thermal Vest
+item.thermal_chestplate_t2.name=Isothermal Vest
+item.thermal_helm.name=Thermal Cap
+item.thermal_helm_t2.name=Isothermal Cap
+item.thermal_leggings.name=Thermal Leggings
+item.thermal_leggings_t2.name=Isothermal Leggings
