@@ -1,0 +1,133 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "type=enclosed_hv_cable": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_hv_cable",
+                "ctm": "galacticraftcore:blocks/enclosed_hv_cable_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_hv_cable"
+            }
+        },
+        "type=enclosed_fluid_pipe": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_fluid_pipe",
+                "ctm": "galacticraftcore:blocks/enclosed_fluid_pipe_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_fluid_pipe"
+            }
+        },
+        "type=enclosed_copper_cable": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_copper_cable",
+                "ctm": "galacticraftcore:blocks/enclosed_copper_cable_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_copper_cable"
+            }
+        },
+        "type=enclosed_gold_cable": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_gold_cable",
+                "ctm": "galacticraftcore:blocks/enclosed_gold_cable_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_gold_cable"
+            }
+        },
+        "type=enclosed_te_conduit": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_te_conduit",
+                "ctm": "galacticraftcore:blocks/enclosed_te_conduit_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_te_conduit"
+            }
+        },
+        "type=enclosed_glass_fibre_cable": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_glass_fibre_cable",
+                "ctm": "galacticraftcore:blocks/enclosed_glass_fibre_cable_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_glass_fibre_cable"
+            }
+        },
+        "type=enclosed_lv_cable": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_lv_cable",
+                "ctm": "galacticraftcore:blocks/enclosed_lv_cable_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_lv_cable"
+            }
+        },
+        "type=enclosed_pipe_items_stone": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_pipe_items_stone",
+                "ctm": "galacticraftcore:blocks/enclosed_pipe_items_stone_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_pipe_items_stone"
+            }
+        },
+        "type=enclosed_pipe_items_cobblestone": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_pipe_items_cobblestone",
+                "ctm": "galacticraftcore:blocks/enclosed_pipe_items_cobblestone_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_pipe_items_cobblestone"
+            }
+        },
+        "type=enclosed_pipe_fluids_stone": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_pipe_fluids_stone",
+                "ctm": "galacticraftcore:blocks/enclosed_pipe_fluids_stone_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_pipe_fluids_stone"
+            }
+        },
+        "type=enclosed_pipe_fluids_cobblestone": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_pipe_fluids_cobblestone",
+                "ctm": "galacticraftcore:blocks/enclosed_pipe_fluids_cobblestone_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_pipe_fluids_cobblestone"
+            }
+        },
+        "type=enclosed_pipe_power_stone": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_pipe_power_stone",
+                "ctm": "galacticraftcore:blocks/enclosed_pipe_power_stone_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_pipe_power_stone"
+            }
+        },
+        "type=enclosed_pipe_power_gold": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_pipe_power_gold",
+                "ctm": "galacticraftcore:blocks/enclosed_pipe_power_gold_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_pipe_power_gold"
+            }
+        },
+        "type=enclosed_me_cable": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_me_cable",
+                "ctm": "galacticraftcore:blocks/enclosed_me_cable_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_me_cable"
+            }
+        },
+        "type=enclosed_aluminum_wire": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_aluminum_wire",
+                "ctm": "galacticraftcore:blocks/enclosed_aluminum_wire_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_aluminum_wire"
+            }
+        },
+        "type=enclosed_heavy_aluminum_wire": {
+            "model": "galacticraftcore:deco_block_1_model",
+            "textures": {
+                "all": "galacticraftcore:blocks/enclosed_heavy_aluminum_wire",
+                "ctm": "galacticraftcore:blocks/enclosed_heavy_aluminum_wire_ctm",
+                "particle": "galacticraftcore:blocks/enclosed_heavy_aluminum_wire"
+            }
+        }
+    }
+}

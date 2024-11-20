@@ -1,0 +1,24 @@
+{
+    "multipart": [
+        {   "apply": { "model": "moreplanets:sealable_waste_rod" }},
+        {   "apply": { "model": "moreplanets:sealable_waste_rod_center" }},
+        {   "when": { "north": "true" },
+            "apply": { "model": "moreplanets:sealable_waste_rod_connect", "uvlock": true }
+        },
+        {   "when": { "east": "true" },
+            "apply": { "model": "moreplanets:sealable_waste_rod_connect", "y": 90, "uvlock": true }
+        },
+        {   "when": { "south": "true" },
+            "apply": { "model": "moreplanets:sealable_waste_rod_connect", "y": 180, "uvlock": true }
+        },
+        {   "when": { "west": "true" },
+            "apply": { "model": "moreplanets:sealable_waste_rod_connect", "y": 270, "uvlock": true }
+        },
+        {   "when": { "down": "true" },
+            "apply": { "model": "moreplanets:sealable_waste_rod_connect", "x": 90, "uvlock": true }
+        },
+        {   "when": { "up": "true" },
+            "apply": { "model": "moreplanets:sealable_waste_rod_connect", "x": 270, "uvlock": true }
+        }
+    ]
+}

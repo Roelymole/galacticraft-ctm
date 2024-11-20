@@ -2,6 +2,7 @@
     "parent": "block/block",
     "textures": {
         "all": "galacticraftcore:blocks/deco_block",
+        "ctm": "galacticraftcore:blocks/deco_block_ctm",
         "particle": "galacticraftcore:blocks/deco_block"
     },
     "elements": [
@@ -82,9 +83,7 @@
     "ctm_overrides": {
         "0": {
             "type": "ctm",
-            "textures": [
-                "galacticraftcore:blocks/deco_block_ctm"
-            ],
+            "textures": ["#ctm"],
             "extra": {
                 "ignore_states": true,
                 "connect_inside": true,
@@ -109,9 +108,7 @@
         },
         "1": {
             "type": "ctm",
-            "textures": [
-                "galacticraftcore:blocks/deco_block_ctm"
-            ],
+            "textures": ["#ctm"],
             "extra": {
                 "ignore_states": true,
                 "connect_inside": true,
@@ -142,9 +139,7 @@
         },
         "2": {
             "type": "ctm",
-            "textures": [
-                "galacticraftcore:blocks/deco_block_ctm"
-            ],
+            "textures": ["#ctm"],
             "extra": {
                 "ignore_states": true,
                 "connect_inside": true,
@@ -167,9 +162,7 @@
         },
         "3": {
             "type": "ctm",
-            "textures": [
-                "galacticraftcore:blocks/deco_block_ctm"
-            ],
+            "textures": ["#ctm"],
             "extra": {
                 "ignore_states": true,
                 "connect_inside": true,

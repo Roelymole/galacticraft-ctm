@@ -1,3 +1,11 @@
+gui.status.air_lock_closed.name=Airlock Closed
+gui.status.air_lock_open.name=Airlock Open
+gui.title.air_lock.name=%s's Airlock Controller
+tile.air_lock_controller.name=Airlock Controller
+tile.air_lock_frame.description=Airlock Frames, when arranged in a portal-like formation, with a single block replaced with a controller, will function as a working airlock.
+tile.air_lock_frame.name=Airlock Frame
+tile.air_lock_seal.name=Airlock Seal
+
 item_desc.powerdraw.name=Power required: %s/s
 tile.buggy_pad.description=Fueling Pads will allow a buggy on the pad to be refueled by an attached Fuel Loaders if set up in a 3x3 square. Cannot be used to launch rockets!
 tile.compressor_advanced.description=A faster version of the Electric Compressor. Rapidly processes ingots into their compressed equivalents.
@@ -26,6 +34,7 @@ item.steel_shovel.name=Heavy-Duty Shovel
 item.steel_sword.name=Heavy-Duty Sword
 
 tile.block_multi.name=Multiblock
+tile.enclosed.te_conduit.name=Sealable Redstone Energy Conduit
 
 tile.slab_gc_half.tin_slab_1.name=Tin Decoration Slab
 tile.slab_gc_half.tin_slab_2.name=Tin Wall Block Slab
