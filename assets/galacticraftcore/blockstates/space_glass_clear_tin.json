@@ -2,12 +2,13 @@
     "forge_marker": 1,
     "defaults": {
        "model": "forge:multi-layer",
-       "textures": {
-           "edge": "galacticraftcore:blocks/space_glass_clear",
-           "particle": "blocks/glass",
-           "0": "galacticraftcore:blocks/glass_clear",
-           "1": "galacticraftcore:blocks/space_glass_frame_tindeco"
-      },
+        "textures": {
+            "edge": "galacticraftcore:blocks/space_glass_clear",
+            "particle": "blocks/glass",
+            "0": "galacticraftcore:blocks/glass_clear",
+            "1": "galacticraftcore:blocks/space_glass_frame_tindeco",
+            "inv": "galacticraftcore:blocks/space_glass_clear_inventory"
+        },
       "uvlock": true
     },
     "variants": {

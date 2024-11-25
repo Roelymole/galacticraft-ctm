@@ -6,7 +6,8 @@
             "edge": "galacticraftcore:blocks/space_glass_vanilla",
             "particle": "blocks/glass",
             "0": "galacticraftcore:blocks/glass_vanilla",
-            "1": "galacticraftcore:blocks/space_glass_frame_white"
+            "1": "galacticraftcore:blocks/space_glass_frame_white",
+            "inv": "galacticraftcore:blocks/space_glass_vanilla_inventory"
         },
         "uvlock": true
     },

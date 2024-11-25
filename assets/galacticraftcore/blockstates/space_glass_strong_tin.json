@@ -1,14 +1,15 @@
 {
     "forge_marker": 1,
     "defaults": {
-       "model": "forge:multi-layer",
-       "textures": {
-           "edge": "galacticraftcore:blocks/space_glass_strong",
-           "particle": "blocks/glass",
-           "0": "galacticraftcore:blocks/glass_strong",
-           "1": "galacticraftcore:blocks/space_glass_frame_tindeco"
-      },
-      "uvlock": true
+        "model": "forge:multi-layer",
+        "textures": {
+            "edge": "galacticraftcore:blocks/space_glass_strong",
+            "particle": "blocks/glass",
+            "0": "galacticraftcore:blocks/glass_strong",
+            "1": "galacticraftcore:blocks/space_glass_frame_tindeco",
+            "inv": "galacticraftcore:blocks/space_glass_inventory"
+        },
+        "uvlock": true
     },
     "variants": {
 
