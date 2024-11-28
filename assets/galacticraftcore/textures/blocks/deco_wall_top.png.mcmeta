@@ -4,6 +4,7 @@
         "type": "ctm",
         "textures": [
             "galacticraftcore:blocks/tin_wall_bot_ctm"
-        ]
+        ],
+        "extra": { "connect_inside": true }
     }
 }

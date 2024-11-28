@@ -1,158 +1,158 @@
 {
     "variants": {
         "facing=east,half=bottom,shape=straight":  {
-            "model": "galacticraftcore:stairs/tin_1_stairs_ew"
+            "model": "galacticraftcore:stairs/tin_1/lower/eastwest"
         },
         "facing=west,half=bottom,shape=straight":  {
-            "model": "galacticraftcore:stairs/tin_1_stairs_ew",
+            "model": "galacticraftcore:stairs/tin_1/lower/eastwest",
             "y": 180, "uvlock": true
         },
         "facing=south,half=bottom,shape=straight": {
-            "model": "galacticraftcore:stairs/tin_1_stairs_ns",
+            "model": "galacticraftcore:stairs/tin_1/lower/northsouth",
             "y": 90, "uvlock": true
         },
         "facing=north,half=bottom,shape=straight": {
-            "model": "galacticraftcore:stairs/tin_1_stairs_ns",
+            "model": "galacticraftcore:stairs/tin_1/lower/northsouth",
             "y": 270, "uvlock": true
         },
         "facing=east,half=bottom,shape=outer_right":  {
-            "model": "galacticraftcore:stairs/tin_1_outer_stairs_br"
+            "model": "galacticraftcore:stairs/tin_1/lower/outer_br"
         },
         "facing=west,half=bottom,shape=outer_right":  {
-            "model": "galacticraftcore:stairs/tin_1_outer_stairs_tl",
+            "model": "galacticraftcore:stairs/tin_1/lower/outer_tl",
             "y": 180, "uvlock": true
         },
         "facing=south,half=bottom,shape=outer_right": {
-            "model": "galacticraftcore:stairs/tin_1_outer_stairs_bl",
+            "model": "galacticraftcore:stairs/tin_1/lower/outer_bl",
             "y": 90, "uvlock": true
         },
         "facing=north,half=bottom,shape=outer_right": {
-            "model": "galacticraftcore:stairs/tin_1_outer_stairs_tr",
+            "model": "galacticraftcore:stairs/tin_1/lower/outer_tr",
             "y": 270, "uvlock": true
         },
         "facing=east,half=bottom,shape=outer_left":  {
-            "model": "galacticraftcore:stairs/tin_1_outer_stairs_tr",
+            "model": "galacticraftcore:stairs/tin_1/lower/outer_tr",
             "y": 270, "uvlock": true
         },
         "facing=west,half=bottom,shape=outer_left":  {
-            "model": "galacticraftcore:stairs/tin_1_outer_stairs_bl",
+            "model": "galacticraftcore:stairs/tin_1/lower/outer_bl",
             "y": 90, "uvlock": true
         },
         "facing=south,half=bottom,shape=outer_left": {
-            "model": "galacticraftcore:stairs/tin_1_outer_stairs_br"
+            "model": "galacticraftcore:stairs/tin_1/lower/outer_br"
         },
         "facing=north,half=bottom,shape=outer_left": {
-            "model": "galacticraftcore:stairs/tin_1_outer_stairs_tl",
+            "model": "galacticraftcore:stairs/tin_1/lower/outer_tl",
             "y": 180, "uvlock": true
         },
         "facing=east,half=bottom,shape=inner_right":  {
-            "model": "galacticraftcore:stairs/tin_1_inner_stairs_tl"
+            "model": "galacticraftcore:stairs/tin_1/lower/inner_tl"
         },
         "facing=west,half=bottom,shape=inner_right":  {
-            "model": "galacticraftcore:stairs/tin_1_inner_stairs_br",
+            "model": "galacticraftcore:stairs/tin_1/lower/inner_br",
             "y": 180, "uvlock": true
         },
         "facing=south,half=bottom,shape=inner_right": {
-            "model": "galacticraftcore:stairs/tin_1_inner_stairs_tr",
+            "model": "galacticraftcore:stairs/tin_1/lower/inner_tr",
             "y": 90, "uvlock": true
         },
         "facing=north,half=bottom,shape=inner_right": {
-            "model": "galacticraftcore:stairs/tin_1_inner_stairs_bl",
+            "model": "galacticraftcore:stairs/tin_1/lower/inner_bl",
             "y": 270, "uvlock": true
         },
         "facing=east,half=bottom,shape=inner_left":  {
-            "model": "galacticraftcore:stairs/tin_1_inner_stairs_bl",
+            "model": "galacticraftcore:stairs/tin_1/lower/inner_bl",
             "y": 270, "uvlock": true
         },
         "facing=west,half=bottom,shape=inner_left":  {
-            "model": "galacticraftcore:stairs/tin_1_inner_stairs_tr",
+            "model": "galacticraftcore:stairs/tin_1/lower/inner_tr",
             "y": 90, "uvlock": true
         },
         "facing=south,half=bottom,shape=inner_left": {
-            "model": "galacticraftcore:stairs/tin_1_inner_stairs_tl"
+            "model": "galacticraftcore:stairs/tin_1/lower/inner_tl"
         },
         "facing=north,half=bottom,shape=inner_left": {
-            "model": "galacticraftcore:stairs/tin_1_inner_stairs_br",
+            "model": "galacticraftcore:stairs/tin_1/lower/inner_br",
             "y": 180, "uvlock": true
         },
         "facing=east,half=top,shape=straight":  {
-            "model": "galacticraftcore:stairs/tin_1_upper_stairs_ew",
+            "model": "galacticraftcore:stairs/tin_1/upper/eastwest",
             "x": 180, "uvlock": true
         },
         "facing=west,half=top,shape=straight":  {
-            "model": "galacticraftcore:stairs/tin_1_upper_stairs_ew",
+            "model": "galacticraftcore:stairs/tin_1/upper/eastwest",
             "x": 180, "y": 180, "uvlock": true
         },
         "facing=south,half=top,shape=straight": {
-            "model": "galacticraftcore:stairs/tin_1_upper_stairs_ns",
+            "model": "galacticraftcore:stairs/tin_1/upper/northsouth",
             "x": 180, "y": 90, "uvlock": true
         },
         "facing=north,half=top,shape=straight": {
-            "model": "galacticraftcore:stairs/tin_1_upper_stairs_ns",
+            "model": "galacticraftcore:stairs/tin_1/upper/northsouth",
             "x": 180, "y": 270, "uvlock": true
         },
         "facing=east,half=top,shape=outer_right":  {
-            "model": "galacticraftcore:stairs/tin_1_upper_outer_stairs_br",
+            "model": "galacticraftcore:stairs/tin_1/upper/outer_br",
             "x": 180, "uvlock": true
         },
         "facing=west,half=top,shape=outer_right":  {
-            "model": "galacticraftcore:stairs/tin_1_upper_outer_stairs_tl",
+            "model": "galacticraftcore:stairs/tin_1/upper/outer_tl",
             "x": 180, "y": 180, "uvlock": true
         },
         "facing=south,half=top,shape=outer_right": {
-            "model": "galacticraftcore:stairs/tin_1_upper_outer_stairs_tr",
+            "model": "galacticraftcore:stairs/tin_1/upper/outer_tr",
             "x": 180, "y": 90, "uvlock": true
         },
         "facing=north,half=top,shape=outer_right": {
-            "model": "galacticraftcore:stairs/tin_1_upper_outer_stairs_bl",
+            "model": "galacticraftcore:stairs/tin_1/upper/outer_bl",
             "x": 180, "y": 270, "uvlock": true
         },
         "facing=east,half=top,shape=outer_left":  {
-            "model": "galacticraftcore:stairs/tin_1_upper_outer_stairs_tr",
+            "model": "galacticraftcore:stairs/tin_1/upper/outer_tr",
             "x": 180, "y": 90, "uvlock": true
         },
         "facing=west,half=top,shape=outer_left":  {
-            "model": "galacticraftcore:stairs/tin_1_upper_outer_stairs_bl",
+            "model": "galacticraftcore:stairs/tin_1/upper/outer_bl",
             "x": 180, "y": 270, "uvlock": true
         },
         "facing=south,half=top,shape=outer_left": {
-            "model": "galacticraftcore:stairs/tin_1_upper_outer_stairs_tl",
+            "model": "galacticraftcore:stairs/tin_1/upper/outer_tl",
             "x": 180, "y": 180, "uvlock": true
         },
         "facing=north,half=top,shape=outer_left": {
-            "model": "galacticraftcore:stairs/tin_1_upper_outer_stairs_br",
+            "model": "galacticraftcore:stairs/tin_1/upper/outer_br",
             "x": 180, "uvlock": true
         },
         "facing=east,half=top,shape=inner_right":  {
-            "model": "galacticraftcore:stairs/tin_1_upper_inner_stairs_tl",
+            "model": "galacticraftcore:stairs/tin_1/upper/inner_tl",
             "x": 180, "uvlock": true
         },
         "facing=west,half=top,shape=inner_right":  {
-            "model": "galacticraftcore:stairs/tin_1_upper_inner_stairs_br",
+            "model": "galacticraftcore:stairs/tin_1/upper/inner_br",
             "x": 180, "y": 180, "uvlock": true
         },
         "facing=south,half=top,shape=inner_right": {
-            "model": "galacticraftcore:stairs/tin_1_upper_inner_stairs_bl",
+            "model": "galacticraftcore:stairs/tin_1/upper/inner_bl",
             "x": 180, "y": 90, "uvlock": true
         },
         "facing=north,half=top,shape=inner_right": {
-            "model": "galacticraftcore:stairs/tin_1_upper_inner_stairs_tr",
+            "model": "galacticraftcore:stairs/tin_1/upper/inner_tr",
             "x": 180, "y": 270, "uvlock": true
         },
         "facing=east,half=top,shape=inner_left":  {
-            "model": "galacticraftcore:stairs/tin_1_upper_inner_stairs_bl",
+            "model": "galacticraftcore:stairs/tin_1/upper/inner_bl",
             "x": 180, "y": 90, "uvlock": true
         },
         "facing=west,half=top,shape=inner_left":  {
-            "model": "galacticraftcore:stairs/tin_1_upper_inner_stairs_tr",
+            "model": "galacticraftcore:stairs/tin_1/upper/inner_tr",
             "x": 180, "y": 270, "uvlock": true
         },
         "facing=south,half=top,shape=inner_left": {
-            "model": "galacticraftcore:stairs/tin_1_upper_inner_stairs_br",
+            "model": "galacticraftcore:stairs/tin_1/upper/inner_br",
             "x": 180, "y": 180, "uvlock": true
         },
         "facing=north,half=top,shape=inner_left": {
-            "model": "galacticraftcore:stairs/tin_1_upper_inner_stairs_tl",
+            "model": "galacticraftcore:stairs/tin_1/upper/inner_tl",
             "x": 180, "uvlock": true
         }
     }
