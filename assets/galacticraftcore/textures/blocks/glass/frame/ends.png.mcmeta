@@ -1,0 +1,18 @@
+{
+    "ctm": {
+        "ctm_version": 1,
+        "type": "ctm",
+        "textures": [
+            "galacticraftcore:blocks/glass/frame/ends_ctm"
+        ],
+        "extra": {
+            "ignore_states": true,
+            "connect_inside": true,
+            "connect_to": [
+                {"block": "galacticraftcore:space_glass_clear_tin"},
+                {"block": "galacticraftcore:space_glass_vanilla_tin"},
+                {"block": "galacticraftcore:space_glass_strong_tin"}
+            ]
+        }
+    }
+}
