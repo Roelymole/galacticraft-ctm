@@ -1,6 +1,30 @@
 {
     "elements": [
         {
+            "name": "base",
+            "from": [ 4.0, 0.0, 0.0 ], 
+            "to": [ 12.0, 2.0, 8.0 ], 
+            "faces": {
+                "east": { "tintindex": 2, "texture": "#deco", "uv": [ 8.0, 14.0, 16.0, 16.0 ] },
+                "west": { "tintindex": 2, "texture": "#deco", "uv": [ 0.0, 14.0, 8.0, 16.0 ] },
+                "north": { "tintindex": 1, "texture": "#end", "uv": [ 8.0, 14.0, 16.0, 16.0 ] },
+                "up": { "tintindex": 0, "texture": "#1", "uv": [ 4.0, 0.0, 12.0, 8.0 ] },
+                "down": { "tintindex": 1, "texture": "#end", "uv": [ 8.0, 8.0, 16.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "base",
+            "from": [ 4.0, 0.0, 8.0 ], 
+            "to": [ 12.0, 2.0, 16.0 ], 
+            "faces": {
+                "east": { "tintindex": 2, "texture": "#deco", "uv": [ 0.0, 14.0, 8.0, 16.0 ] },
+                "west": { "tintindex": 2, "texture": "#deco", "uv": [ 8.0, 14.0, 16.0, 16.0 ] },
+                "south": { "tintindex": 1, "texture": "#end", "uv": [ 8.0, 14.0, 16.0, 16.0 ] },
+                "up": { "tintindex": 0, "texture": "#1", "uv": [ 4.0, 8.0, 12.0, 16.0 ] },
+                "down": { "tintindex": 1, "texture": "#end", "uv": [ 0.0, 0.0, 8.0, 8.0 ] }
+            }
+        },
+        {
             "name": "top",
             "from": [ 4.0, 14.0, 0.0 ], 
             "to": [ 12.0, 16.0, 8.0 ], 
@@ -25,31 +49,7 @@
             }
         },
         {
-            "name": "base",
-            "from": [ 4.0, 0.0, 0.0 ], 
-            "to": [ 12.0, 2.0, 8.0 ], 
-            "faces": {
-                "east": { "tintindex": 2, "texture": "#deco", "uv": [ 8.0, 14.0, 16.0, 16.0 ] },
-                "west": { "tintindex": 2, "texture": "#deco", "uv": [ 0.0, 14.0, 8.0, 16.0 ] },
-                "north": { "tintindex": 1, "texture": "#end", "uv": [ 8.0, 14.0, 16.0, 16.0 ] },
-                "up": { "tintindex": 0, "texture": "#1", "uv": [ 4.0, 0.0, 12.0, 8.0 ] },
-                "down": { "tintindex": 1, "texture": "#end", "uv": [ 8.0, 8.0, 16.0, 16.0 ] }
-            }
-        },
-        {
-            "name": "base",
-            "from": [ 4.0, 0.0, 8.0 ], 
-            "to": [ 12.0, 2.0, 16.0 ], 
-            "faces": {
-                "east": { "tintindex": 2, "texture": "#deco", "uv": [ 0.0, 14.0, 8.0, 16.0 ] },
-                "west": { "tintindex": 2, "texture": "#deco", "uv": [ 8.0, 14.0, 16.0, 16.0 ] },
-                "south": { "tintindex": 1, "texture": "#end", "uv": [ 8.0, 14.0, 16.0, 16.0 ] },
-                "up": { "tintindex": 0, "texture": "#1", "uv": [ 4.0, 8.0, 12.0, 16.0 ] },
-                "down": { "tintindex": 2, "texture": "#end", "uv": [ 0.0, 0.0, 8.0, 8.0 ] }
-            }
-        },
-        {
-            "name": "side1",
+            "name": "north",
             "from": [ 4.0, 2.0, 0.0 ], 
             "to": [ 12.0, 14.0, 2.0 ], 
             "faces": {
@@ -60,7 +60,7 @@
             }
         },
         {
-            "name": "side2",
+            "name": "south",
             "from": [ 4.0, 2.0, 14.0 ], 
             "to": [ 12.0, 14.0, 16.0 ], 
             "faces": {
@@ -71,7 +71,7 @@
             }
         },
         {
-            "name": "grout",
+            "name": "groutbottom",
             "from": [ 5.0, 2.0, 0.0 ], 
             "to": [ 11.0, 3.0, 16.0 ], 
             "faces": {
@@ -81,17 +81,7 @@
             }
         },
         {
-            "name": "grout1",
-            "from": [ 5.0, 3.0, 2.0 ], 
-            "to": [ 11.0, 14.0, 3.0 ], 
-            "faces": {
-                "east": { "tintindex": 0, "texture": "#1", "uv": [ 13.0, 2.0, 14.0, 13.0 ] },
-                "south": { "tintindex": 0, "texture": "#1", "uv": [ 5.0, 2.0, 11.0, 13.0 ] },
-                "west": { "tintindex": 0, "texture": "#1", "uv": [ 2.0, 2.0, 3.0, 13.0 ] }
-            }
-        },
-        {
-            "name": "grout2",
+            "name": "grouttop",
             "from": [ 5.0, 13.0, 3.0 ], 
             "to": [ 11.0, 14.0, 14.0 ], 
             "faces": {
@@ -101,7 +91,17 @@
             }
         },
         {
-            "name": "grout3",
+            "name": "groutnorth",
+            "from": [ 5.0, 3.0, 2.0 ], 
+            "to": [ 11.0, 14.0, 3.0 ], 
+            "faces": {
+                "east": { "tintindex": 0, "texture": "#1", "uv": [ 13.0, 2.0, 14.0, 13.0 ] },
+                "south": { "tintindex": 0, "texture": "#1", "uv": [ 5.0, 2.0, 11.0, 13.0 ] },
+                "west": { "tintindex": 0, "texture": "#1", "uv": [ 2.0, 2.0, 3.0, 13.0 ] }
+            }
+        },
+        {
+            "name": "groutsouth",
             "from": [ 5.0, 3.0, 13.0 ], 
             "to": [ 11.0, 13.0, 14.0 ], 
             "faces": {
@@ -137,6 +137,9 @@
                 "ignore_states": true,
                 "connect_inside": true,
                 "connect_to": [
+                    {"block": "galacticraftcore:space_glass_clear_tin"},
+                    {"block": "galacticraftcore:space_glass_vanilla_tin"},
+                    {"block": "galacticraftcore:space_glass_strong_tin"},
                     {"block": "galacticraftcore:basic_block_core",
                      "predicate": [{"basictype": "deco_block_1"}]},
                     {"block": "galacticraftcore:concealed_redstone"},
@@ -148,8 +151,7 @@
                     {"block": "galacticraftcore:slab_gc_half",
                      "predicate": [{"variant": "tin_slab_2"}]},
                     {"block": "galacticraftcore:slab_gc_double",
-                     "predicate": [{"variant": "tin_slab_2"}]},
-                    {"block": "moreplanets:sealable_nuclear_waste_rod"}
+                     "predicate": [{"variant": "tin_slab_2"}]}
                 ]
             }
         }

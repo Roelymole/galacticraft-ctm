@@ -73,6 +73,35 @@
                 "down": { "tintindex": 0, "texture": "#1", "uv": [ 5.0, 0.0, 11.0, 3.0 ] }
             }
         }
-        
-    ]
+    ],
+    "ctm_version": 1,
+    "ctm_overrides": {
+        "2": {
+            "type": "ctm",
+            "textures": [
+                "galacticraftcore:blocks/deco_block_ctm"
+            ],
+            "extra": {
+                "ignore_states": true,
+                "connect_inside": true,
+                "connect_to": [
+                    {"block": "galacticraftcore:space_glass_clear_tin"},
+                    {"block": "galacticraftcore:space_glass_vanilla_tin"},
+                    {"block": "galacticraftcore:space_glass_strong_tin"},
+                    {"block": "galacticraftcore:basic_block_core",
+                     "predicate": [{"basictype": "deco_block_1"}]},
+                    {"block": "galacticraftcore:concealed_redstone"},
+                    {"block": "galacticraftcore:concealed_repeater"},
+                    {"block": "galacticraftcore:concealed_repeater_pow"},
+                    {"block": "galacticraftcore:concealed_detector"},
+                    {"block": "galacticraftcore:enclosed"},
+                    {"block": "galacticraftcore:tin_stairs_2"},
+                    {"block": "galacticraftcore:slab_gc_half",
+                     "predicate": [{"variant": "tin_slab_2"}]},
+                    {"block": "galacticraftcore:slab_gc_double",
+                     "predicate": [{"variant": "tin_slab_2"}]}
+                ]
+            }
+        }
+    }
 }

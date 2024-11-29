@@ -2,36 +2,36 @@
     "elements": [
         {
             "name": "base",
-            "from": [ 4.0, 0.0, 4.0 ], 
+            "from": [ 4.0, 0.0, 0.0 ], 
+            "to": [ 12.0, 2.0, 12.0 ], 
+            "faces": {
+                "north": { "tintindex": 0, "texture": "#1", "uv": [ 4.0, 0.0, 12.0, 2.0 ] },
+                "south": { "tintindex": 2, "texture": "#deco", "uv": [ 4.0, 14.0, 12.0, 16.0 ] },
+                "east": { "tintindex": 2, "texture": "#deco", "uv": [ 4.0, 14.0, 16.0, 16.0 ] },
+                "west": { "tintindex": 2, "texture": "#deco", "uv": [ 0.0, 14.0, 12.0, 16.0 ] },
+                "up": { "tintindex": 0, "texture": "#1", "uv": [ 4.0, 0.0, 12.0, 12.0 ] },
+                "down": { "tintindex": 0, "texture": "#corners", "uv": [ 2.0, 2.0, 6.0, 8.0 ] }
+            }
+        },
+        {
+            "name": "basebar",
+            "from": [ 12.0, 0.0, 4.0 ], 
             "to": [ 16.0, 2.0, 12.0 ], 
             "faces": {
-                "north": { "tintindex": 0, "texture": "#1", "uv": [ 2.0, 14.0, 14.0, 16.0 ], "rotation": 180 },
-                "east": { "tintindex": 0, "texture": "#1", "uv": [ 2.0, 14.0, 10.0, 16.0 ] },
-                "south": { "tintindex": 0, "texture": "#1", "uv": [ 14.0, 4.0, 16.0, 16.0 ], "rotation": 90 },
-                "west": { "tintindex": 0, "texture": "#1", "uv": [ 2.0, 0.0, 0.0, 8.0 ], "rotation": 90 },
-                "up": { "tintindex": 0, "texture": "#1", "uv": [ 2.0, 4.0, 14.0, 12.0 ] },
-                "down": { "tintindex": 0, "texture": "#corners", "uv": [ 2.0, 2.0, 8.0, 6.0 ] }
+                "east": { "tintindex": 0, "texture": "#1", "uv": [ 14.0, 0.0, 16.0, 16.0 ], "rotation": 90 },
+                "north": { "tintindex": 2, "texture": "#deco", "uv": [ 0.0, 14.0, 4.0, 16.0 ] },
+                "south": { "tintindex": 2, "texture": "#deco", "uv": [ 12.0, 14.0, 16.0, 16.0 ] },
+                "up": { "tintindex": 0, "texture": "#1", "uv": [ 12.0, 4.0, 16.0, 12.0 ] },
+                "down": { "tintindex": 0, "texture": "#corners", "uv": [ 6.0, 2.0, 8.0, 6.0 ] }
             }
         },
         {
-            "name": "Cube",
-            "from": [ 4.0, 0.0, 0.0 ], 
-            "to": [ 12.0, 2.0, 4.0 ], 
-            "faces": {
-                "north": { "tintindex": 0, "texture": "#1", "uv": [ 2.0, 14.0, 10.0, 16.0 ] },
-                "east": { "tintindex": 0, "texture": "#1", "uv": [ 2.0, 14.0, 6.0, 16.0 ] },
-                "west": { "tintindex": 0, "texture": "#1", "uv": [ 2.0, 8.0, 0.0, 12.0 ], "rotation": 90 },
-                "up": { "tintindex": 0, "texture": "#1", "uv": [ 2.0, 0.0, 10.0, 4.0 ] },
-                "down": { "tintindex": 0, "texture": "#corners", "uv": [ 2.0, 6.0, 6.0, 8.0 ] }
-            }
-        },
-        {
-            "name": "infill",
+            "name": "baseinfill",
             "from": [ 12.0, 0.0, 2.0 ], 
             "to": [ 14.0, 3.0, 4.0 ], 
             "faces": {
-                "north": { "tintindex": 0, "texture": "#1", "uv": [ 2.0, 13.0, 4.0, 16.0 ] },
-                "east": { "tintindex": 0, "texture": "#1", "uv": [ 2.0, 12.0, 4.0, 15.0 ] },
+                "north": { "tintindex": 2, "texture": "#deco", "uv": [ 2.0, 13.0, 4.0, 16.0 ] },
+                "east": { "tintindex": 2, "texture": "#deco", "uv": [ 12.0, 13.0, 14.0, 16.0 ] },
                 "up": { "tintindex": 0, "texture": "#1", "uv": [ 2.0, 0.0, 4.0, 2.0 ] },
                 "down": { "tintindex": 0, "texture": "#corners", "uv": [ 6.0, 6.0, 7.0, 7.0 ] }
             }
@@ -60,5 +60,35 @@
                 "down": { "tintindex": 0, "texture": "#1", "uv": [ 0.0, 4.0, 12.0, 16.0 ] }
             }
         }
-    ]
+    ],
+    "ctm_version": 1,
+    "ctm_overrides": {
+        "2": {
+            "type": "ctm",
+            "textures": [
+                "galacticraftcore:blocks/deco_block_ctm"
+            ],
+            "extra": {
+                "ignore_states": true,
+                "connect_inside": true,
+                "connect_to": [
+                    {"block": "galacticraftcore:space_glass_clear_tin"},
+                    {"block": "galacticraftcore:space_glass_vanilla_tin"},
+                    {"block": "galacticraftcore:space_glass_strong_tin"},
+                    {"block": "galacticraftcore:basic_block_core",
+                     "predicate": [{"basictype": "deco_block_1"}]},
+                    {"block": "galacticraftcore:concealed_redstone"},
+                    {"block": "galacticraftcore:concealed_repeater"},
+                    {"block": "galacticraftcore:concealed_repeater_pow"},
+                    {"block": "galacticraftcore:concealed_detector"},
+                    {"block": "galacticraftcore:enclosed"},
+                    {"block": "galacticraftcore:tin_stairs_2"},
+                    {"block": "galacticraftcore:slab_gc_half",
+                     "predicate": [{"variant": "tin_slab_2"}]},
+                    {"block": "galacticraftcore:slab_gc_double",
+                     "predicate": [{"variant": "tin_slab_2"}]}
+                ]
+            }
+        }
+    }
 }
