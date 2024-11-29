@@ -3,9 +3,9 @@
 	"defaults": {
 		"textures": {
 			"wall": "galacticraftcore:blocks/deco_block_side",
-			"wall_bot": "galacticraftcore:blocks/tin_wall_bot",
-			"wall_top": "galacticraftcore:blocks/tin_wall_top",
-			"wall_end": "galacticraftcore:blocks/tin_wall_end"
+			"wall_bot": "galacticraftcore:blocks/wall_gc/tin_1/bottom",
+			"wall_top": "galacticraftcore:blocks/wall_gc/tin_1/top",
+			"wall_end": "galacticraftcore:blocks/deco_block_side"
 		},
 		"model": "galacticraftcore:wall_post",
 		"uvlock": true
@@ -66,17 +66,17 @@
 			"tin_1_wall": {
 				"textures": {
 					"wall": "galacticraftcore:blocks/deco_block_side",
-					"wall_bot": "galacticraftcore:blocks/deco_wall_bot",
-					"wall_top": "galacticraftcore:blocks/deco_wall_top",
+					"wall_bot": "galacticraftcore:blocks/wall_gc/tin_1/bottom",
+					"wall_top": "galacticraftcore:blocks/wall_gc/tin_1/top",
 					"wall_end": "galacticraftcore:blocks/deco_block_side"
 				}
 			},
 			"tin_2_wall": {
 				"textures": {
-					"wall": "galacticraftcore:blocks/tin_wall_side",
-					"wall_bot": "galacticraftcore:blocks/tin_wall_bot",
-					"wall_top": "galacticraftcore:blocks/tin_wall_top",
-					"wall_end": "galacticraftcore:blocks/tin_wall_end"
+					"wall": "galacticraftcore:blocks/wall_gc/tin_2/side",
+					"wall_bot": "galacticraftcore:blocks/wall_gc/tin_2/bottom",
+					"wall_top": "galacticraftcore:blocks/wall_gc/tin_2/top",
+					"wall_end": "galacticraftcore:blocks/wall_gc/tin_2/end"
 				}
 			},
 			"moon_stone_wall": {

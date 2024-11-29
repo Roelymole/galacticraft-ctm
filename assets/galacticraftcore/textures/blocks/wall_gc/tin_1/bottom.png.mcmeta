@@ -3,7 +3,7 @@
         "ctm_version": 1,
         "type": "ctm",
         "textures": [
-            "galacticraftcore:blocks/deco_wall_bot_ctm"
+            "galacticraftcore:blocks/wall_gc/tin_1/bottom_ctm"
         ],
         "extra": {
             "ignore_states": true,

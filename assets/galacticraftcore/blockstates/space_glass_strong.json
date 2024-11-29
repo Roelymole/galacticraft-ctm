@@ -4,9 +4,9 @@
         "model": "forge:multi-layer",
         "textures": {
             "particle": "blocks/glass",
-            "0": "galacticraftcore:blocks/space_glass_strong",
+            "0": "galacticraftcore:blocks/glass/strong",
             "1": "galacticraftcore:blocks/space_glass_frame_white",
-            "inv": "galacticraftcore:blocks/space_glass_inventory"
+            "inv": "galacticraftcore:blocks/glass/strong_inventory"
         },
         "uvlock": true
     },

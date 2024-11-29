@@ -2,8 +2,8 @@
     "parent": "galacticraftcore:block/gc_wall_inventory",
     "textures": {
         "wall": "galacticraftcore:blocks/deco_block_side",
-        "wall_bot": "galacticraftcore:blocks/tin_wall_bot",
-        "wall_top": "galacticraftcore:blocks/tin_wall_top",
+        "wall_bot": "galacticraftcore:blocks/wall_gc/tin_1/bottom",
+        "wall_top": "galacticraftcore:blocks/wall_gc/tin_1/top",
         "wall_end": "galacticraftcore:blocks/deco_block_side"
     }
 }
