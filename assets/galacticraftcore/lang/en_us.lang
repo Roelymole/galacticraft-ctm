@@ -1,0 +1,7 @@
+gui.status.air_lock_closed.name=Airlock Closed
+gui.status.air_lock_open.name=Airlock Open
+gui.title.air_lock.name=%s's Airlock Controller
+tile.air_lock_controller.name=Airlock Controller
+tile.air_lock_frame.description=Airlock Frames, when arranged in a portal-like formation, with a single block replaced with a controller, will function as a working airlock.
+tile.air_lock_frame.name=Airlock Frame
+tile.air_lock_seal.name=Airlock Seal
