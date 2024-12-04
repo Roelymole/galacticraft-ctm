@@ -1,49 +1,21 @@
 {
     "parent": "block/block",
     "textures": {
-        "side": "galacticraftcore:blocks/deco_block_seam",
+        "side": "galacticraftcore:blocks/stairs/tin_1/northsouth",
         "end": "galacticraftcore:blocks/deco_block",
-        "particle": "galacticraftcore:blocks/deco_block_seam"
+        "particle": "galacticraftcore:blocks/stairs/tin_1/northsouth"
     },
     "elements": [
         {
             "from": [ 0, 0, 0 ],
-            "to": [ 8, 8, 8 ],
-            "faces": {
-                "down": { "uv": [ 0, 8, 8, 16 ], "texture": "#end", "cullface": "down", "tintindex": 0 },
-                "up": { "uv": [ 0, 0, 8, 8 ], "texture": "#end", "cullface": "up", "tintindex": 1 },
-                "north": { "uv": [ 8, 8, 16, 16 ], "texture": "#side", "cullface": "north", "tintindex": 2 },
-                "west": { "uv": [ 0, 8, 8, 16 ], "texture": "#side", "cullface": "west", "tintindex": 2 }
-            }
-        },
-        {
-            "from": [ 0, 0, 8 ],
-            "to": [ 8, 8, 16 ],
-            "faces": {
-                "down": { "uv": [ 0, 0, 8, 8 ], "texture": "#end", "cullface": "down", "tintindex": 0 },
-                "up": { "uv": [ 0, 8, 8, 16 ], "texture": "#end", "cullface": "up", "tintindex": 1 },
-                "south": { "uv": [ 0, 8, 8, 16 ], "texture": "#side", "cullface": "south", "tintindex": 2 },
-                "west": { "uv": [ 8, 8, 16, 16 ], "texture": "#side", "cullface": "west", "tintindex": 2 }
-            }
-        },
-        {
-            "from": [ 8, 0, 0 ],
-            "to": [ 16, 8, 8 ],
-            "faces": {
-                "down": { "uv": [ 8, 8, 16, 16 ], "texture": "#end", "cullface": "down", "tintindex": 0 },
-                "up": { "uv": [ 8, 0, 16, 8 ], "texture": "#end", "cullface": "up", "tintindex": 1 },
-                "north": { "uv": [ 0, 8, 8, 16 ], "texture": "#side", "cullface": "north", "tintindex": 2 },
-                "east": { "uv": [ 8, 8, 16, 16 ], "texture": "#side", "cullface": "east", "tintindex": 2 }
-            }
-        },
-        {
-            "from": [ 8, 0, 8 ],
             "to": [ 16, 8, 16 ],
             "faces": {
-                "down": { "uv": [ 8, 0, 16, 8 ], "texture": "#end", "cullface": "down", "tintindex": 0 },
-                "up": { "uv": [ 8, 8, 16, 16 ], "texture": "#end", "cullface": "up", "tintindex": 1 },
-                "south": { "uv": [ 8, 8, 16, 16 ], "texture": "#side", "cullface": "south", "tintindex": 2 },
-                "east": { "uv": [ 0, 8, 8, 16 ], "texture": "#side", "cullface": "east", "tintindex": 2 }
+                "down": { "uv": [ 0, 0, 16, 16 ], "texture": "#end", "cullface": "down", "tintindex": 0 },
+                "up": { "uv": [ 0, 0, 16, 16 ], "texture": "#end", "cullface": "up", "tintindex": 1 },
+                "north": { "uv": [ 0, 8, 16, 16 ], "texture": "#side", "cullface": "north", "tintindex": 2 },
+                "south": { "uv": [ 0, 8, 16, 16 ], "texture": "#side", "cullface": "south", "tintindex": 2 },
+                "east": { "uv": [ 0, 8, 16, 16 ], "texture": "#side", "cullface": "east", "tintindex": 2 },
+                "west": { "uv": [ 0, 8, 16, 16 ], "texture": "#side", "cullface": "west", "tintindex": 2 }
             }
         }
     ],
@@ -51,9 +23,7 @@
     "ctm_overrides": {
         "0": {
             "type": "ctm",
-            "textures": [
-                "galacticraftcore:blocks/deco_block_ctm"
-            ],
+            "textures": ["galacticraftcore:blocks/deco_block_ctm"],
             "extra": {
                 "ignore_states": true,
                 "connect_inside": true,
@@ -79,9 +49,7 @@
         },
         "1": {
             "type": "ctm",
-            "textures": [
-                "galacticraftcore:blocks/deco_block_ctm"
-            ],
+            "textures": ["galacticraftcore:blocks/deco_block_ctm"],
             "extra": {
                 "ignore_states": true,
                 "connect_inside": true,
@@ -108,9 +76,7 @@
         },
         "2": {
             "type": "ctm",
-            "textures": [
-                "galacticraftcore:blocks/deco_block_seam_ctm"
-            ],
+            "textures": ["galacticraftcore:blocks/stairs/tin_1/northsouth_ctm"],
             "extra": {
                 "ignore_states": true,
                 "connect_inside": true,

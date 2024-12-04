@@ -1,0 +1,131 @@
+{
+    "parent": "block/block",
+    "textures": {
+        "bottom": "galacticraftcore:blocks/deco_block_up",
+        "top": "galacticraftcore:blocks/stairs/tin_1/top_left",
+        "side": "galacticraftcore:blocks/deco_block_side",
+        "particle": "galacticraftcore:blocks/deco_block_side"
+    },
+    "elements": [
+        {
+            "from": [ 0, 0, 0 ],
+            "to": [ 8, 8, 8 ],
+            "faces": {
+                "down": { "uv": [ 0, 8, 8, 16 ], "texture": "#bottom", "cullface": "down", "tintindex": 0 },
+                "up": { "uv": [ 0, 0, 8, 8 ], "texture": "#top", "tintindex": 1 },
+                "north": { "uv": [ 8, 8, 16, 16 ], "texture": "#side", "cullface": "north" },
+                "west": { "uv": [ 0, 8, 8, 16 ], "texture": "#side", "cullface": "west" }
+            }
+        },
+        {
+            "from": [ 0, 0, 8 ],
+            "to": [ 8, 8, 16 ],
+            "faces": {
+                "down": { "uv": [ 0, 0, 8, 8 ], "texture": "#bottom", "cullface": "down", "tintindex": 0 },
+                "south": { "uv": [ 0, 8, 8, 16 ], "texture": "#side", "cullface": "south" },
+                "west": { "uv": [ 8, 8, 16, 16 ], "texture": "#side", "cullface": "west" }
+            }
+        },
+        {
+            "from": [ 8, 0, 0 ],
+            "to": [ 16, 8, 8 ],
+            "faces": {
+                "down": { "uv": [ 8, 8, 16, 16 ], "texture": "#bottom", "cullface": "down", "tintindex": 0 },
+                "north": { "uv": [ 0, 8, 8, 16 ], "texture": "#side", "cullface": "north" },
+                "east": { "uv": [ 8, 8, 16, 16 ], "texture": "#side", "cullface": "east" }
+            }
+        },
+        {
+            "from": [ 8, 0, 8 ],
+            "to": [ 16, 8, 16 ],
+            "faces": {
+                "down": { "uv": [ 8, 0, 16, 8 ], "texture": "#bottom", "cullface": "down", "tintindex": 0 },
+                "south": { "uv": [ 8, 8, 16, 16 ], "texture": "#side", "cullface": "south" },
+                "east": { "uv": [ 0, 8, 8, 16 ], "texture": "#side", "cullface": "east" }
+            }
+        },
+        {
+            "from": [ 0, 8, 8 ],
+            "to": [ 8, 16, 16 ],
+            "faces": {
+                "up": { "uv": [ 0, 8, 8, 16 ], "texture": "#top", "cullface": "up", "tintindex": 1 },
+                "north": { "uv": [ 8, 0, 16, 8 ], "texture": "#side" },
+                "south": { "uv": [ 0, 0, 8, 8 ], "texture": "#side", "cullface": "south" },
+                "west": { "uv": [ 8, 0, 16, 8 ], "texture": "#side", "cullface": "west" }
+            }
+        },
+        {
+            "from": [ 8, 8, 0 ],
+            "to": [ 16, 16, 8 ],
+            "faces": {
+                "up": { "uv": [ 8, 0, 16, 8 ], "texture": "#top", "cullface": "up", "tintindex": 1 },
+                "north": { "uv": [ 0, 0, 8, 8 ], "texture": "#side", "cullface": "north" },
+                "east": { "uv": [ 8, 0, 16, 8 ], "texture": "#side", "cullface": "east" },
+                "west": { "uv": [ 0, 0, 8, 8 ], "texture": "#side" }
+            }
+        },
+        {
+            "from": [ 8, 8, 8 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "up": { "uv": [ 8, 8, 16, 16 ], "texture": "#top", "cullface": "up", "tintindex": 1 },
+                "south": { "uv": [ 8, 0, 16, 8 ], "texture": "#side", "cullface": "south" },
+                "east": { "uv": [ 0, 0, 8, 8 ], "texture": "#side", "cullface": "east" }
+            }
+        }
+    ],
+    "ctm_version": 1,
+    "ctm_overrides": {
+        "0": {
+            "type": "ctm",
+            "textures": ["galacticraftcore:blocks/deco_block_up_ctm"],
+            "extra": {
+                "ignore_states": true,
+                "connect_inside": true,
+                "connect_to": [
+                    {"block": "galacticraftcore:basic_block_core",
+                     "predicate": [{"basictype": "deco_block_0"}]},
+                    {"block": "galacticraftcore:tin_stairs_1",
+                     "predicate": [{"half": "bottom"}]},
+                    {"block": "galacticraftcore:slab_gc_half",
+                     "predicate": [{"variant": "tin_slab_1"}, {"half": "bottom"}]},
+                    {"block": "galacticraftcore:slab_gc_double",
+                     "predicate": [{"variant": "tin_slab_1"}]}
+                ]
+            }
+        },
+        "1": {
+            "type": "ctm",
+            "textures": ["galacticraftcore:blocks/stairs/tin_1/top_left_ctm"],
+            "extra": {
+                "ignore_states": true,
+                "connect_inside": true,
+                "connect_to": [
+                    {"block": "galacticraftcore:basic_block_core",
+                     "predicate": [{"basictype": "deco_block_0"}]},
+                    {"block": "galacticraftcore:basic_block_core",
+                     "predicate": [{"basictype": "deco_block_1"}]},
+                    {"block": "galacticraftcore:concealed_redstone"},
+                    {"block": "galacticraftcore:concealed_repeater"},
+                    {"block": "galacticraftcore:concealed_repeater_pow"},
+                    {"block": "galacticraftcore:concealed_detector"},
+                    {"block": "galacticraftcore:enclosed"},
+                    {"block": "galacticraftcore:tin_stairs_1",
+                     "predicate": [{"half": "bottom"}]},
+                    {"block": "galacticraftcore:tin_stairs_2"},
+                    {"block": "galacticraftcore:slab_gc_half",
+                     "predicate": [{"variant": "tin_slab_1"}]},
+                    {"block": "galacticraftcore:slab_gc_half",
+                     "predicate": [{"variant": "tin_slab_2"}]},
+                    {"block": "galacticraftcore:slab_gc_double",
+                     "predicate": [{"variant": "tin_slab_1"}]},
+                    {"block": "galacticraftcore:slab_gc_double",
+                     "predicate": [{"variant": "tin_slab_2"}]},
+                    {"block": "moreplanets:sealable_nuclear_waste_rod"},
+                    {"block": "galacticraftcore:air_lock_frame"}
+                ]
+            }
+        }
+    }
+}
+
