@@ -1,14 +1,22 @@
 {
-    "parent": "galacticraftcore:block/glass/spaceglass_ns_inventory",
+    "parent": "galacticraftcore:block/glass/tin_inventory",
     "textures": {
-           "0": "galacticraftcore:blocks/glass/strong_inventory",
-           "1": "galacticraftcore:blocks/glass/frame/borderless"
+        "1": "galacticraftcore:blocks/glass/frame/borderless",
+        "deco": "galacticraftcore:blocks/deco_block",
+        "end": "galacticraftcore:blocks/glass/frame/ends",
+        "edge": "galacticraftcore:blocks/glass/frame/edges_ctm",
+        "inv": "galacticraftcore:blocks/glass/strong_inventory"
     },
     "display": {
-        "thirdperson": {
-            "rotation": [ 10, -45, 170 ],
-            "translation": [ 0, 1.5, -2.75 ],
+        "thirdperson_righthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ 0, 2.5, 0],
             "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "fixed": {
+            "rotation": [ -90, 90, 90 ],
+            "translation": [ 0, 0, 1 ],
+            "scale": [ 0.75, 0.75, 0.75 ]
         }
     }
 }
